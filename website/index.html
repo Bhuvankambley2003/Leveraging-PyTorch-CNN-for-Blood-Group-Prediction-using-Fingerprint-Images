@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Group Detection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Blood Group Detection Using PyTorch CNN</h1>
+        </header>
+        <section class="content">
+            <p>Detecting blood groups is crucial for medical treatments, surgeries, and transfusions. Traditional methods involve various tests which can be time-consuming and require specialized equipment. Using PyTorch CNN, we can quickly and accurately determine blood groups from images, making the process faster and more efficient.</p>
+        </section>
+        <section class="upload-section">
+            <h2>Upload Your Image</h2>
+            <input type="file" id="fileInput" accept="image/*">
+            <button id="uploadButton">Upload and Predict</button>
+        </section>
+        <section class="result-section">
+            <h2>Prediction Result</h2>
+            <p id="result">Your predicted blood group will appear here.</p>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
