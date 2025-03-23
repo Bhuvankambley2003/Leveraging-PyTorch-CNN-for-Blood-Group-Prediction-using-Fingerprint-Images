@@ -1,5 +1,5 @@
 # Blood Group Prediction from Fingerprint Images using PyTorch CNN
-
+![App Screenshot](demo.png)
 This project implements a Convolutional Neural Network (CNN) using PyTorch to predict blood groups from fingerprint images. The system is deployed as a web application with a RESTful API backend and a Streamlit frontend interface.
 
 ## 🚀 Features
